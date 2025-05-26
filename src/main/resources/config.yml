@@ -1,0 +1,13 @@
+# 存储类型: yaml, mysql 或 sqlite
+storage:
+  type: "yaml"  # 默认使用SQLite
+
+  # SQLite不需要额外配置
+
+  # MySQL配置 (当storage.type=mysql时使用)
+  mysql:
+    host: "localhost"
+    port: 3306
+    database: "minecraft"
+    username: "root"
+    password: "password"

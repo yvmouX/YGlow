@@ -2,8 +2,15 @@ name: YGlow
 version: '${version}'
 main: cn.yvmou.yglow.YGlow
 api-version: '1.21'
-prefix: Yglow
-softdepend: [Placeholder]
+prefix: YGlow
 authors: [yvmoux]
-description: a glow plugin
+description: a glow plguin
 website: www.yvmou.cn
+folia-supported: true
+
+softdepend:
+  - PlaceholderAPI
+
+commands:
+  yglow:
+    aliases: yg
