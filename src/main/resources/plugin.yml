@@ -1,0 +1,9 @@
+name: YGlow
+version: '${version}'
+main: cn.yvmou.yglow.YGlow
+api-version: '1.21'
+prefix: Yglow
+softdepend: [Placeholder]
+authors: [yvmoux]
+description: a glow plugin
+website: www.yvmou.cn
